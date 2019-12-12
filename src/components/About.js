@@ -1,5 +1,5 @@
 import React from "react";
-
+import Super from "../hoc/super"
 const About = () => {
     return(
         <div className="container">
@@ -8,4 +8,4 @@ const About = () => {
         </div>
     )
 }
-export default About;
+export default Super(About);
